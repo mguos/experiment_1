@@ -2,18 +2,51 @@
 
 
 const trial_info = {
-    forced_choice: [
+    key_press_trials: [
         {
-            question: "What's on the bread?",
+            question: "Is this the same object?",
             picture: "images/question_mark_02.png",
-            option1: 'jam',
-            option2: 'ham'
+            key1: 'y',
+            key2: 'm'
+            y: 'same',
+            m: 'different',
+            expected: 'same'
         },
         {
-            question: "What's the weather like?",
-            picture: "images/weather.jpg",
-            option1: "shiny",
-            option2: "rainbow"
+            question: "Is this the same object?",
+            picture: "images/question_mark_02.png",
+            key1: 'y',
+            key2: 'm'
+            y: 'same',
+            m: 'different',
+            expected: 'different'
+        },
+         {
+            question: "Is this the same object?",
+            picture: "images/question_mark_02.png",
+            key1: 'y',
+            key2: 'm'
+            y: 'same',
+            m: 'different',
+            expected: 'different'
+        },
+         {
+            question: "Is this the same object?",
+            picture: "images/question_mark_02.png",
+            key1: 'y',
+            key2: 'm'
+            y: 'same',
+            m: 'different',
+            expected: 'different'
+        },
+         {
+            question: "Is this the same object?",
+            picture: "images/question_mark_02.png",
+            key1: 'y',
+            key2: 'm'
+            y: 'same',
+            m: 'different',
+            expected: 'different'
         }
     ]
 };
