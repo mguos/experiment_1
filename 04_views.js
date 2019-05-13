@@ -102,13 +102,13 @@ const thanks = babeViews.thanks({
 
 
 // Here, we initialize a forcedChoice view
-const key_press_trials_2A = babeViews.key_press_trials({
+const key_press_2A = babeViews.key_press({
     // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
-    trials: trial_info.key_press_trials.length,
+    trials: trial_info.key_press.length,
     // name and trial_type should be identical to the variable name
-    name: 'key_press_trials_2A',
-    trial_type: 'key_press_trials_2A',
-    data: trial_info.key_press_trials
+    name: 'key_press_2A',
+    trial_type: 'key_press_2A',
+    data: trial_info.key_press
 });
 
 // There are many more templates available:
