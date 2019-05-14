@@ -2,7 +2,7 @@
 
 
 const trial_info = {
-    key_press_trials: [
+    key_press: [
         {
             question: "Is this the same object?",
             picture: "images/1_150_different.jpg",
