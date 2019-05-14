@@ -46,12 +46,6 @@ const instructions = babeViews.instructions({
     buttonText: 'go to trials'
 });
 
-const main = babeViews.keyPress({
-    name: 'main_key_press_5A',
-    trial_type: 'main',
-    data: main_trials,
-    trials: 5
-});
 
 // In the post test questionnaire you can ask your participants addtional questions
 const post_test = babeViews.postTest({
