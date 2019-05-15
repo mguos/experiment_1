@@ -4,22 +4,22 @@
 const trial_info = {
     forced_choice: [
         {
-            question: "What's on the bread?",
+            question: "Are the two objects same/different?",
             picture: 'images/1_150_different.jpg',
             key1: 'm',
             key2: 'y',
-            m: 'jam',
-            y: 'ham',
-            expected: 'jam'
+            m: 'same',
+            y: 'different',
+            expected: 'different'
         },
         {
-            question: "What's the weather like?",
+            question: "Are the two objects same/different?",
             picture: 'images/1_150_same.jpg',
             key1: 'm',
             key2: 'y',
-            m: 'rainy',
-            y: 'shiny',
-            expected: 'shiny'
+            m: 'same',
+            y: 'different',
+            expected: 'same'
         }
     ],
 };
