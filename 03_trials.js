@@ -11,7 +11,8 @@ const trial_info = {
             m: 'same',
             y: 'different',
             expected: 'different',
-            picture_number: '1'
+            picture_number: '1',
+            degree_of_rotation: '150'
         },
         {
             question: "Are the two objects same/different?",
@@ -20,7 +21,9 @@ const trial_info = {
             key2: 'y',
             m: 'same',
             y: 'different',
-            expected: 'same'
+            expected: 'same',
+            picture_number: '2',
+            degree_of_rotation: '150'
         },
         {
             question: "Are the two objects same/different?",
@@ -29,7 +32,9 @@ const trial_info = {
             key2: 'y',
             m: 'same',
             y: 'different',
-            expected: 'different'
+            expected: 'different',
+            picture_number: '3',
+            degree_of_rotation: '50'
         },
         {
             question: "Are the two objects same/different?",
@@ -38,7 +43,9 @@ const trial_info = {
             key2: 'y',
             m: 'same',
             y: 'different',
-            expected: 'same'
+            expected: 'same',
+            picture_number: '4',
+            degree_of_rotation: '50'
         },
         {
             question: "Are the two objects same/different?",
@@ -47,7 +54,9 @@ const trial_info = {
             key2: 'y',
             m: 'same',
             y: 'different',
-            expected: 'different'
+            expected: 'different',
+            picture_number: '5',
+            degree_of_rotation: '50'
         }
     ],
 };
