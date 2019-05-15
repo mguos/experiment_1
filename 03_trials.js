@@ -10,7 +10,8 @@ const trial_info = {
             key2: 'y',
             m: 'same',
             y: 'different',
-            expected: 'different'
+            expected: 'different',
+            picture_number: '1'
         },
         {
             question: "Are the two objects same/different?",
