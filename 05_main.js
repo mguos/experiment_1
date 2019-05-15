@@ -23,7 +23,7 @@ $("document").ready(function() {
         ],
         // Here, you can specify all information for the deployment
         deploy: {
-            experimentID: "INSERT_A_NUMBER",
+            experimentID: "INSERT_A_NUMBER123",
             serverAppURL: "https://babe-demo.herokuapp.com/api/submit_experiment/",
             // Possible deployment methods are:
             // "debug" and "directLink"
