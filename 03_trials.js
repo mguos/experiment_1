@@ -6,7 +6,7 @@ const trial_info = {
         {
             question: "What's on the bread?",
             picture: "images/question_mark_02.png",
-            key1: 'm'
+            key1: 'm',
             key2: 'y'
             m: 'jam',
             y: 'ham',
