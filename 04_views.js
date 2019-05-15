@@ -108,7 +108,7 @@ const forced_choice_2A = babeViews.keyPress({
     // name and trial_type should be identical to the variable name
     name: 'forced_choice_2A',
     trial_type: 'forced_choice_2A',
-    data: trial_info.forced_choice
+    data: _.shuffle(trial_info.forced_choice)
 });
 
 // There are many more templates available:
