@@ -5,16 +5,16 @@ const trial_info = {
     forced_choice: [
         {
             question: "What's on the bread?",
-            picture: "images/question_mark_02.png",
+            picture: 'images/1_150_different.jpg',
             key1: 'm',
-            key2: 'y'
+            key2: 'y',
             m: 'jam',
             y: 'ham',
             expected: 'jam'
         },
         {
             question: "What's the weather like?",
-            picture: "images/weather.jpg",
+            picture: 'images/1_150_same.jpg',
             key1: 'm',
             key2: 'y',
             m: 'rainy',
