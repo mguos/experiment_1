@@ -2,7 +2,7 @@
 
 
 const trial_info = {
-    key_press: [
+    forced_choice: [
         {
             question: "Is this the same object?",
             picture: "images/1_150_different.jpg",
