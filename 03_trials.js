@@ -6,14 +6,20 @@ const trial_info = {
         {
             question: "What's on the bread?",
             picture: "images/question_mark_02.png",
-            option1: 'jam',
-            option2: 'ham'
+            key1: 'm'
+            key2: 'y'
+            m: 'jam',
+            y: 'ham',
+            expected: 'jam'
         },
         {
             question: "What's the weather like?",
             picture: "images/weather.jpg",
-            option1: "shiny",
-            option2: "rainbow"
+            key1: 'm',
+            key2: 'y',
+            m: 'rainy',
+            y: 'shiny',
+            expected: 'shiny'
         }
     ],
 };
