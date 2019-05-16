@@ -108,8 +108,12 @@ const forced_choice_2A = babeViews.view_generator('key_press',{
     // name and trial_type should be identical to the variable name
     name: 'forced_choice_2A',
     trial_type: 'forced_choice_2A',
+    data: trial_info.forced_choice,
+    pause: 1000,
+    fix_duration: 250,
     data: _.shuffle(trial_info.forced_choice)
 });
+
 
 // There are many more templates available:
 // forcedChoice, sliderRating, dropdownChoice, testboxInput, ratingScale, imageSelection, sentenceChoice, keyPress, selfPacedReading and selfPacedReading_ratingScale
