@@ -40,7 +40,7 @@ const instructions = babeViews.view_generator('instructions',{
     buttonText: 'go to the test trials'
 });
 
-const post_test_trials = babeViews.view_generator('post_test_trials',{
+const post_test_trials = babeViews.view_generator('instructions',{
     trials: 1,
     name: 'post_test_trials',
     title: 'Second Instructions',
