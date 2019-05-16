@@ -111,7 +111,10 @@ const forced_choice_2A = babeViews.view_generator('key_press',{
     data: trial_info.forced_choice,
     pause: 1000,
     fix_duration: 500,
-    data: _.shuffle(trial_info.forced_choice)
+    data: _.shuffle(trial_info.forced_choice),
+    hook: {
+        after_response_enabled: check_response
+    }
 });
 
 
