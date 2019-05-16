@@ -18,6 +18,7 @@ $("document").ready(function() {
             intro,
             instructions,
             key_press_test,
+            post_test_trials,
             forced_choice_2A,
             post_test,
             thanks,
