@@ -39,7 +39,7 @@ const instructions = babeViews.view_generator('instructions',{
             <br />
             <br />
             You will begin with 12 test trials, where you get direct feedback about the correctness of your input.
-            After the 12 test trials, you will continue with 48 main trials, where you will not get feedback.,
+            After the 12 test trials, you will continue with 48 main trials, where you will not get feedback.`,
     buttonText: 'go to trials'
 });
 
