@@ -48,7 +48,7 @@ const instructions = babeViews.view_generator('instructions',{
 
 
 // In the post test questionnaire you can ask your participants addtional questions
-const post_test = babeViews.view_generator('postTest',{
+const post_test = babeViews.view_generator('post_test',{
     trials: 1,
     name: 'post_test',
     title: 'Additional information',
