@@ -23,11 +23,12 @@ const intro = babeViews.view_generator('intro',{
     trials: 1,
     name: 'intro',
     // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-    text:   `This is a sample introduction view.
+    text:   `Welcome to the mental-rotation experiment!
             <br />
             <br />
-            The introduction view welcomes the participant and gives general information
-            about the experiment. You are in the <strong>${coin}</strong> group.
+            You will begin with 12 test trials, where you get direct feedback about the correctness of your input.
+            After the 12 test trials, you will continue with 48 main trials, where you will not get feedback.
+            You are in the <strong>${coin}</strong> group.
             <br />
             <br />
             This is a minimal experiment with one forced choice view. It can serve as a starting point for programming your own experiment.`,
