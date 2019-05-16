@@ -120,10 +120,10 @@ const key_press_test = babeViews.view_generator('key_press',{
     // name and trial_type should be identical to the variable name
     name: 'test_trial',
     trial_type: 'test_trial',
-    data: trial_info.key_press_trial,
+    data: trial_info.key_press,
     pause: 1000,
     fix_duration: 500,
-    data: _.shuffle(trial_info.key_press_test),
+    data: _.shuffle(trial_info.key_press),
     hook: {
         after_response_enabled: check_response
     }
