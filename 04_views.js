@@ -43,7 +43,7 @@ const instructions = babeViews.view_generator('instructions',{
 const post_test_trials = babeViews.view_generator('instructions',{
     trials: 1,
     name: 'post_test_trials',
-    title: 'Second Instructions',
+    title: 'End of test trials',
     text:  `You finished the test trials, now you can continue with the main trials.`,
     buttonText: 'go to the main trials'
 });
