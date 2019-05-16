@@ -2,6 +2,22 @@
 
 
 const trial_info = {
+    key_press_test: [
+        {
+            question: "Are the two objects same/different?",
+            picture: 'images/1_150_different.jpg',
+            key1: 'm',
+            key2: 'y',
+            m: 'same',
+            y: 'different',
+            expected: 'different',
+            picture_number: '1',
+            degree_of_rotation: '150',
+            correct: 'different'
+       }
+     ],
+    
+    
     forced_choice: [
         {
             question: "Are the two objects same/different?",
