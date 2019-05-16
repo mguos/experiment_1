@@ -35,14 +35,19 @@ const instructions = babeViews.view_generator('instructions',{
     trials: 1,
     name: 'instrucions',
     title: 'General Instructions',
-    text:  `This is a sample instructions view.
-            <br />
-            <br />
+    text:  `
             You will begin with 12 test trials, where you get direct feedback about the correctness of your input.
             After the 12 test trials, you will continue with 48 main trials, where you will not get feedback.`,
-    buttonText: 'go to trials'
+    buttonText: 'go to the test trials'
 });
 
+const post_test_trials = babeViews.view_generator('post_test_trials',{
+    trials: 1,
+    name: 'post_test_trials',
+    title: 'Second Instructions',
+    text:  `You finished the test trials, now you can continue with the main trials.`,
+    buttonText: 'go to the main trials'
+});
 
 // In the post test questionnaire you can ask your participants addtional questions
 const post_test = babeViews.view_generator('post_test',{
