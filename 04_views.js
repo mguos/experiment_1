@@ -112,9 +112,22 @@ const forced_choice_2A = babeViews.view_generator('key_press',{
     pause: 1000,
     fix_duration: 500,
     data: _.shuffle(trial_info.forced_choice),
+});
+
+const key_press_test = babeViews.view_generator('key_press',{
+    // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
+    trials: trial_info.key_press_test.length,
+    // name and trial_type should be identical to the variable name
+    name: 'test_trial',
+    trial_type: 'test_trial',
+    data: trial_info.key_press_trial,
+    pause: 1000,
+    fix_duration: 500,
+    data: _.shuffle(trial_info.key_press_test),
     hook: {
         after_response_enabled: check_response
     }
+
 });
 
 
