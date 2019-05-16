@@ -26,12 +26,7 @@ const intro = babeViews.view_generator('intro',{
     text:   `Welcome to the mental-rotation experiment!
             <br />
             <br />
-            You will begin with 12 test trials, where you get direct feedback about the correctness of your input.
-            After the 12 test trials, you will continue with 48 main trials, where you will not get feedback.
-            You are in the <strong>${coin}</strong> group.
-            <br />
-            <br />
-            This is a minimal experiment with one forced choice view. It can serve as a starting point for programming your own experiment.`,
+            You are in the <strong>${coin}</strong> group.`,
    buttonText: 'Begin the experiment'
 });
 
@@ -43,7 +38,8 @@ const instructions = babeViews.view_generator('instructions',{
     text:  `This is a sample instructions view.
             <br />
             <br />
-            Tell your participants what they are to do here.`,
+            You will begin with 12 test trials, where you get direct feedback about the correctness of your input.
+            After the 12 test trials, you will continue with 48 main trials, where you will not get feedback.´,
     buttonText: 'go to trials'
 });
 
