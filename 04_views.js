@@ -116,7 +116,7 @@ const forced_choice_2A = babeViews.view_generator('key_press',{
 
 const key_press_test = babeViews.view_generator('key_press',{
     // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
-    trials: trial_info.key_press_test.length,
+    trials: trial_info.key_press.length,
     // name and trial_type should be identical to the variable name
     name: 'test_trial',
     trial_type: 'test_trial',
