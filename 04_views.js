@@ -35,7 +35,7 @@ const intro = babeViews.view_generator('intro',{
 });
 
 // For most tasks, you need instructions views
-const instructions = babeViews.instructions({
+const instructions = babeViews.view_generator('instructions',{
     trials: 1,
     name: 'instrucions',
     title: 'General Instructions',
@@ -48,7 +48,7 @@ const instructions = babeViews.instructions({
 
 
 // In the post test questionnaire you can ask your participants addtional questions
-const post_test = babeViews.postTest({
+const post_test = babeViews.view_generator('postTest',{
     trials: 1,
     name: 'post_test',
     title: 'Additional information',
@@ -71,7 +71,7 @@ const post_test = babeViews.postTest({
 });
 
 // The 'thanks' view is crucial; never delete it; it submits the results!
-const thanks = babeViews.thanks({
+const thanks = babeViews.view_generator('thanks',{
     trials: 1,
     name: 'thanks',
     title: 'Thank you for taking part in this experiment!',
@@ -102,7 +102,7 @@ const thanks = babeViews.thanks({
 
 
 // Here, we initialize a forcedChoice view
-const forced_choice_2A = babeViews.keyPress({
+const forced_choice_2A = babeViews.view_generator('keyPress',{
     // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
     trials: trial_info.forced_choice.length,
     // name and trial_type should be identical to the variable name
