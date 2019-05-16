@@ -12,7 +12,8 @@ const trial_info = {
             y: 'different',
             expected: 'different',
             picture_number: '1',
-            degree_of_rotation: '150'
+            degree_of_rotation: '150',
+            correct: 'different'
         },
         {
             question: "Are the two objects same/different?",
