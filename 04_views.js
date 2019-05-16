@@ -36,7 +36,10 @@ const instructions = babeViews.view_generator('instructions',{
     name: 'instructions',
     title: 'General Instructions',
     text:  `You will begin with 12 test trials, where you get direct feedback about the correctness of your input.
-            After the 12 test trials, you will continue with 48 main trials, where you will not get feedback.`,
+            After the 12 test trials, you will continue with 48 main trials, where you will not get feedback.
+            <br />
+            You will see a picture and have to decide if the two objects presented are the same object or if they are different objects.
+            If you think they are the same you need to press the key m. If you think the objects are different you need to press y.`,
     buttonText: 'go to the test trials'
 });
 
