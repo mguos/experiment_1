@@ -33,10 +33,9 @@ const intro = babeViews.view_generator('intro',{
 // For most tasks, you need instructions views
 const instructions = babeViews.view_generator('instructions',{
     trials: 1,
-    name: 'instrucions',
+    name: 'instructions',
     title: 'General Instructions',
-    text:  `
-            You will begin with 12 test trials, where you get direct feedback about the correctness of your input.
+    text:  `You will begin with 12 test trials, where you get direct feedback about the correctness of your input.
             After the 12 test trials, you will continue with 48 main trials, where you will not get feedback.`,
     buttonText: 'go to the test trials'
 });
